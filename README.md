@@ -21,6 +21,7 @@ npm run build
 ```
 
 ## Деплой на GitHub Pages
+https://0vasiliy.github.io/carousel-vue/
 
 1. Обновите `publicPath` в `vue.config.js` на имя вашего репозитория
 2. Обновите `homepage` в `package.json` на ваш GitHub URL
