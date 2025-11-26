@@ -1,24 +1,36 @@
-# vueproject
+# Carousel Vue
 
-## Project setup
-```
+Vue.js проект с каруселью изображений.
+
+## Установка
+
+```bash
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+## Запуск
+
+### Разработка
+```bash
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
+### Сборка для продакшена
+```bash
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Деплой на GitHub Pages
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Обновите `publicPath` в `vue.config.js` на имя вашего репозитория
+2. Обновите `homepage` в `package.json` на ваш GitHub URL
+3. Выполните деплой:
+```bash
+npm run deploy
+```
+## Технологии
+
+- Vue 2.7
+- Vue Router
+- Bootstrap 5
+- Bootstrap Vue

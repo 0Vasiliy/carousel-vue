@@ -1,11 +1,7 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
+  publicPath: process.env.NODE_ENV === 'production' 
+    ? '/carousel-vue/'  
+    : '/',
   transpileDependencies: true,
-  // chainWebpack: config => {
-  //   config.module
-  //     .rule('html')
-  //     .test(/\.html$/)
-  //     .use('html-loader')
-  //     .loader('html-loader')
-  // }
 })
